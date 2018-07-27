@@ -1,7 +1,7 @@
 # contest-problems
 
 My problem count submitted to DMOJ is:
-# 103
+# 103 on chrollo | 100 on indra
 Main account:
 https://dmoj.ca/user/chrollo <br />
 Alternate account:
