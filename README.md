@@ -1,4 +1,4 @@
-# contest-problems
+# Contest Problems
 
 My problem count submitted to DMOJ is:
 # 100
