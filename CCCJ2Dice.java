@@ -7,7 +7,7 @@ public class CCCJ2Dice {
 		Scanner sc = new Scanner(System.in);
 		int c = 0;
 		
-		try{
+		try {
 			
 				int d1 = sc.nextInt();
 				int d2 = sc.nextInt();
@@ -37,18 +37,7 @@ public class CCCJ2Dice {
 					System.out.println("There are " + c + " ways to get the sum 10.");
 				} else {
 					System.out.println("There is 1 way to get the sum 10.");
-				}
-				
-//				for (int[] x : arr)
-//				{
-//				   for (int y : x)
-//				   {
-//				        System.out.print(y + " ");
-//				   }
-//				   System.out.println();
-//				}
-//				
-							
+				}					
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
