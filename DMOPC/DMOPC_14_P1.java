@@ -15,7 +15,7 @@ public class DMOPC_14_P1 {
 			station[i] = sc.nextLine();
 		}
 
-		if(n < 3){
+		if(n < 3) {
 			System.out.println("N");
 		}
 		
@@ -27,8 +27,6 @@ public class DMOPC_14_P1 {
 					System.out.println("N");
 				}
 			}
-
 		}
-
 	}
 }
