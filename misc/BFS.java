@@ -3,8 +3,7 @@ package misc;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS {
-	
+public class BFS {	
 	class Cell {
 		int x;
 		int y;
@@ -15,9 +14,7 @@ public class BFS {
 	}
 	
 	public static void main(String[] args) {
-		
-		int[][] move = {
-				
+		int[][] move = {				
 				{1,0},
 				{-1,0},
 				{0,1},
@@ -41,16 +38,12 @@ public class BFS {
 		
 	}
 	
-	private void addToQueue(int x, int y, int[][] grid, Queue<Cell> q, int steps) {
-		
+	private void addToQueue(int x, int y, int[][] grid, Queue<Cell> q, int steps) {		
 		/*
 		 * if on useless cell, return... 
 		 * 
 		 * grid[y][x] = steps
 		 * q.add new Cell(x,y)
 		 */
-		
-		
 	}
-
 }
