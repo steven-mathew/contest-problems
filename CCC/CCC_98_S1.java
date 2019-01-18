@@ -2,10 +2,8 @@ package CCC;
 
 import java.util.Scanner;
 
-public class CCC_98_S1 {
-	
-	public static void main(String... args) {
-		
+public class CCC_98_S1 {	
+	public static void main(String... args) {		
 		Scanner sc = new Scanner(System.in);
 		
 		int n = Integer.parseInt(sc.nextLine());
@@ -26,9 +24,8 @@ public class CCC_98_S1 {
 			
 			System.out.println();
 		}
-		
+	
 		
 		
 	}
-
 }
