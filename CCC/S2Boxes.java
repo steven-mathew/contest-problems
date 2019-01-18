@@ -4,9 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class S2Boxes {
-
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 
 		int n = Integer.parseInt(sc.nextLine());
@@ -14,7 +12,6 @@ public class S2Boxes {
 		int[][] dim_box = new int[n][3];
 
 		for(int i = 0; i < n; i++) {
-
 			String s = sc.nextLine();
 			String[] t = s.split(" ");
 
@@ -26,18 +23,13 @@ public class S2Boxes {
 //				System.out.println(dim_box[i][j]);		
 				//				Arrays.sort(dim_box[i]);
 			}
-
 		}
-
-
-
 
 		int m = Integer.parseInt(sc.nextLine());
 		int[] item = new int[3];
 		int[][] dim_item = new int[m][3];
 
 		for(int k = 0; k < m; k++){
-
 			String s2 = sc.nextLine();
 			String[] t2 = s2.split(" ");
 
@@ -59,7 +51,6 @@ public class S2Boxes {
 		boolean found = false;
 
 		for(int h = 0; h < m; h++) {
-
 			found = false;
 			int v_box = 1;
 			String output = "";
