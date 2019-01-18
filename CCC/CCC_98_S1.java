@@ -23,9 +23,6 @@ public class CCC_98_S1 {
 			}
 			
 			System.out.println();
-		}
-	
-		
-		
+		}	
 	}
 }
