@@ -10,53 +10,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FastestReader {
-
-	static class Pair implements Comparable<Pair> {
-		int a;
-		int b;
-		Pair(int a, int b) {
-			this.a = a;
-			this.b = b;
-		}
-		@Override
-		public int compareTo(Pair arg0) {
-			int c = new Integer(a).compareTo(arg0.a);
-			if (c != 0) return c;
-			
-			return new Integer(b).compareTo(arg0.b);
-		}
-		
-		
-	}
 	
 	public static void main(String[] args) throws IOException {
-
-		int n = readInt();
-		Pair[] p = new Pair[n];
-		
-		for (int i = 0; i < n; i++) {
-			p[i] = new Pair(readInt(), readInt());
-		}		
-		
-		Arrays.sort(p);
-		
-		println(chain(p,n));
 		
 		exit();
 	}
-	
-	public static int chain(Pair[] p, int n) {
-		
-		int cnt = 1;
-		for (int i = 0; i < n-1; i++) {
-			if ((p[i].b >= p[i+1].a && p[i].b < p[i+1].b) ||
-				(p[i].b < p[i+1].a)) {			
-				cnt++;
-			}
-		}
-		
-		return cnt;		
-	}
+
 	
 	private static final int BUFFER_SIZE = 1 << 16;
 	private static DataInputStream din = new DataInputStream(System.in);
