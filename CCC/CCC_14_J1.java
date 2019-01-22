@@ -3,9 +3,7 @@ package CCC;
 import java.util.Scanner;
 
 public class CCC_14_J1 {
-
 	public static void main(String... args) {
-
 		Scanner sc = new Scanner(System.in);
 
 		int a1 = sc.nextInt();
@@ -24,10 +22,7 @@ public class CCC_14_J1 {
 		else {
 			System.out.println("Scalene");
 		}
-
-
 	}   
-
 }
 
 
