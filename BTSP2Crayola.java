@@ -18,8 +18,7 @@ public class BTSP2Crayola {
 					}							
 				}				
 				System.out.println(c);
-			}
-			
+			}			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}		
