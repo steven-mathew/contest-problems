@@ -72,5 +72,4 @@ public class UDG {
 	public static void addEdge(Vertex u, Vertex v) {
 		adj[u.n].add(v);
 	}
-
 }
