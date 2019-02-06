@@ -4,9 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class COCI_06_1 {
-	
-	public static void main(String... args) {
-		
+	public static void main(String... args) {		
 		Scanner sc = new Scanner(System.in);
 		
 		HashSet<Integer> h = new HashSet<>();
