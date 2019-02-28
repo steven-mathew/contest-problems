@@ -1,5 +1,3 @@
-package BTS;
-
 import java.util.Scanner;
 
 public class Avalon {
@@ -9,8 +7,7 @@ public class Avalon {
 		int n = Integer.parseInt(sc.nextLine());
 		double mult = 1;
 		
-		for(int i = 0; i < n; i++) {
-			
+		for(int i = 0; i < n; i++) {			
 			String s = sc.nextLine();
 			String[] t = s.split(" ");
 			double a = Integer.parseInt(t[0]);
@@ -18,10 +15,7 @@ public class Avalon {
 			mult *= a/b;		
 		}
 		
-		if(mult == 0)
-			System.out.println(0);
-		else
-			System.out.println(mult);
+		if (mult == 0) System.out.println(0);
+		else System.out.println(mult);
 	}
-
 }
