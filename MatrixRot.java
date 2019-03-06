@@ -3,7 +3,6 @@ public class MatrixRot {
 
 
 	public static void printMatrix(int a[][], int N) {
-
 		for(int i = 0; i < N; i++) {
 			for(int j = 0; j < N; j++) {	
 				System.out.printf(a[i][j] + " ");
@@ -11,7 +10,6 @@ public class MatrixRot {
 
 			System.out.print("\n");			
 		}
-
 	}	
 
 	public static void swapRows(int[][] m) {
@@ -23,7 +21,6 @@ public class MatrixRot {
 	}
 
 	private static void transpose(int[][] m) {
-
 		for (int i = 0; i < m.length; i++) {
 			for (int j = i; j < m[0].length; j++) {
 				int x = m[i][j];
@@ -34,7 +31,6 @@ public class MatrixRot {
 	}
 
 	public static void main(String[] args) {
-
 		int a[][]= {
 				{1, 2, 3},
 				{4, 5, 6},
@@ -47,5 +43,4 @@ public class MatrixRot {
 		swapRows(a);
 		printMatrix(a, N);
 	}
-
 }
