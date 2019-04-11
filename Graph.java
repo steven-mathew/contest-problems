@@ -31,7 +31,7 @@ public class Graph {
 
     public LinkedList<String> adjacentNodes(String last) {
         LinkedHashSet<String> adjacent = map.get(last);
-        if(adjacent==null) {
+        if (adjacent == null) {
             return new LinkedList();
         }
         return new LinkedList<String>(adjacent);
