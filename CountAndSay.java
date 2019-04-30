@@ -1,5 +1,4 @@
-public class CountAndSay{
-
+public class CountAndSay {
 	public static void main(String[] args) {
 		
 		int N = 4;
@@ -29,6 +28,4 @@ public class CountAndSay{
 		System.out.println(str);
 		
 	}
-
-
 }
