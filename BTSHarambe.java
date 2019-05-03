@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class BTSHarambe {
-
 	public static void main(String[] args) {
 
 		String str = null;
@@ -48,5 +47,4 @@ public class BTSHarambe {
 
 
 	}
-
 }
